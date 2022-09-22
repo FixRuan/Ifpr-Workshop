@@ -1,0 +1,78 @@
+.intro-container{
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+}
+
+.infos > h2{
+  font-family: 'Baloo 2', cursive;
+  color: var(--title);
+  font-size: 3rem;
+  line-height: 130%;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.infos > span{
+  color: var(--subtitle);
+  font-size: 1.25rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.details{
+  display: grid;
+  grid-template-columns: repeat(2, 18rem);
+  gap: 1rem;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.item-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99999px;
+  background-color: black;
+  padding: 0.4rem;
+}
+
+.item-icon-container i{
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.item span{
+  color: var(--text);
+}
+
+#orange{
+  background-color: var(--brand-yellow-dark);
+}
+
+#gray{
+  background-color: var(--text);
+}
+
+#purple{
+  background-color: var(--brand-purple-dark);
+}
+
+#yellow{
+  background-color: var(--brand-yellow);
+}

@@ -1,0 +1,127 @@
+.coffee-list-container{
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.coffee-list-container > h2{
+  font-size: 2rem;
+  font-family: 'Baloo 2', cursive;
+  color: var(--title);
+  margin-bottom: 4rem;
+}
+
+.coffees{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.coffee-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 12rem;
+}
+
+.coffee-card > img{
+  margin-bottom: 0.875rem;
+}
+
+.coffee-tag-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.coffee-tag-container span{
+  background-color: var(--brand-yellow-light);
+  color: var(--brand-yellow-dark);
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+.coffee-card > h3{
+ font-size: 1.25rem;
+ font-family: 'Baloo 2', cursive;
+ color: var(--subtitle);
+ font-weight: bold;
+ margin-bottom: 0.5rem;
+}
+
+.coffee-card > p{
+ font-size: 0.875rem;
+ color: var(--label);
+ text-align: center;
+ line-height: 130%;
+ margin-bottom: 2rem;
+}
+
+.coffee-price-info{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coffee-price-info > p{
+  color: var(--text);
+  font-size: 0.875rem;
+  line-height: 130%;
+}
+
+.coffee-price-info > p > span{
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Baloo 2', cursive;
+}
+
+.add-coffee{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: var(--button);
+  color: var(--title);
+  padding: 0.45rem;
+  border-radius: 5px;
+}
+
+.quantity i{
+  color: var(--brand-purple);
+  cursor: pointer;
+}
+
+.add-in-cart{
+  cursor: pointer;
+  background-color: var(--brand-purple-dark);
+  color: var(--white);
+  padding: 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: opacity 0.5s;
+}
+
+.add-in-cart:hover{
+  opacity: 0.6;
+}
